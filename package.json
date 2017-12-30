@@ -10,6 +10,9 @@
     "start": "node test_usage.js",
     "test": "mocha --timeout 10000"
   },
+  "bin": {
+    "network-speed": "test_usage.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kenigbolo/network-speed.git"
